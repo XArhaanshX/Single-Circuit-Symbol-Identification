@@ -1,0 +1,71 @@
+{
+  "total_components": 180,
+  "after_area_filter": 5,
+  "after_aspect_filter": 3,
+  "after_density_filter": 3,
+  "final_candidate_count": 3,
+  "average_candidate_area": 847.0,
+  "average_candidate_density": 0.30204827676956275,
+  "template_area_reference": 816,
+  "filter_thresholds": {
+    "area_min_multiplier": 0.5,
+    "area_max_multiplier": 4.0,
+    "aspect_ratio_min": 0.3,
+    "aspect_ratio_max": 2.5,
+    "density_min": 0.15,
+    "density_max": 0.85
+  },
+  "final_candidates_metadata": [
+    {
+      "label": 26,
+      "bbox": [
+        113,
+        195,
+        38,
+        91
+      ],
+      "area": 797,
+      "aspect_ratio": 0.4175824175824176,
+      "density": 0.23048004626951996,
+      "centroid": [
+        131.19071518193223,
+        245.18695106649938
+      ],
+      "crop_path": "outputs\\diagram\\candidate_crops\\candidate_001.png"
+    },
+    {
+      "label": 37,
+      "bbox": [
+        1131,
+        195,
+        87,
+        91
+      ],
+      "area": 1292,
+      "aspect_ratio": 0.9560439560439561,
+      "density": 0.1631931287103701,
+      "centroid": [
+        1184.1904024767803,
+        238.2453560371517
+      ],
+      "crop_path": "outputs\\diagram\\candidate_crops\\candidate_002.png"
+    },
+    {
+      "label": 46,
+      "bbox": [
+        668,
+        212,
+        42,
+        21
+      ],
+      "area": 452,
+      "aspect_ratio": 2.0,
+      "density": 0.5124716553287982,
+      "centroid": [
+        689.3761061946902,
+        222.4579646017699
+      ],
+      "crop_path": "outputs\\diagram\\candidate_crops\\candidate_003.png"
+    }
+  ]
+}

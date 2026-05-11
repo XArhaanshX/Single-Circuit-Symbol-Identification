@@ -1,0 +1,19 @@
+{
+  "image_dimensions": {
+    "height": 72,
+    "width": 83
+  },
+  "foreground_pixel_count": 816,
+  "foreground_ratio": 0.13654618473895583,
+  "edge_pixel_count": 458,
+  "skeleton_pixel_count": 175,
+  "parameters": {
+    "median_kernel_size": 3,
+    "canny_low": 50,
+    "canny_high": 150,
+    "adaptive_blocksize": 21,
+    "adaptive_c": 10,
+    "wire_kernel_width": 50,
+    "wire_kernel_height": 1
+  }
+}

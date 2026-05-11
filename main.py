@@ -1,0 +1,144 @@
+import os
+import json
+from src.utils import safe_load_image, save_preprocessing_stats
+from src.preprocessing import preprocess_template, preprocess_diagram
+from src.visualization import (
+    save_debug_images, 
+    save_pipeline_overview, 
+    save_intensity_histogram,
+    save_colored_components,
+    save_candidate_overlays,
+    save_final_overlay,
+    save_candidate_crops
+)
+from src.region_proposal import (
+    compute_template_reference,
+    extract_connected_components,
+    filter_candidates
+)
+
+def main():
+    print("=" * 50)
+    print("STAGE 1: PREPROCESSING PIPELINE")
+    print("=" * 50)
+
+    # Output directories
+    TEMPLATE_OUT_DIR = os.path.join("outputs", "template")
+    DIAGRAM_OUT_DIR = os.path.join("outputs", "diagram")
+
+    # Image Paths
+    TEMPLATE_PATH = os.path.join("Data", "symbol.png")
+    DIAGRAM_PATH = os.path.join("Data", "circuit_diagram.png")
+
+    try:
+        # --------------------------------------------------
+        # 1. PROCESS TEMPLATE
+        # --------------------------------------------------
+        print("\n[1/2] Processing Template...")
+        template_image = safe_load_image(TEMPLATE_PATH)
+        template_results = preprocess_template(template_image)
+        
+        save_debug_images(TEMPLATE_OUT_DIR, template_results["images"])
+        save_intensity_histogram(TEMPLATE_OUT_DIR, "histogram_gray.png", template_results["images"]["02_gray.png"])
+        save_pipeline_overview(TEMPLATE_OUT_DIR, "template_pipeline_overview.png", template_results["images"])
+        save_preprocessing_stats(template_results["stats"], os.path.join(TEMPLATE_OUT_DIR, "preprocessing_stats.json"))
+        
+        # --------------------------------------------------
+        # 2. PROCESS DIAGRAM
+        # --------------------------------------------------
+        print("\n[2/2] Processing Diagram...")
+        diagram_image = safe_load_image(DIAGRAM_PATH)
+        diagram_results = preprocess_diagram(diagram_image)
+        
+        save_debug_images(DIAGRAM_OUT_DIR, diagram_results["images"])
+        save_intensity_histogram(DIAGRAM_OUT_DIR, "histogram_gray.png", diagram_results["images"]["02_gray.png"])
+        save_pipeline_overview(DIAGRAM_OUT_DIR, "diagram_pipeline_overview.png", diagram_results["images"])
+        save_preprocessing_stats(diagram_results["stats"], os.path.join(DIAGRAM_OUT_DIR, "preprocessing_stats.json"))
+        
+        print("\n" + "=" * 50)
+        print("STAGE 2: REGION PROPOSAL")
+        print("=" * 50)
+        
+        template_binary = template_results["images"]["04_binary.png"]
+        diagram_no_wire = diagram_results["images"]["06_no_wire.png"]
+        diagram_original = diagram_results["images"]["01_original.png"]
+        
+        # Compute template reference (foreground pixels)
+        template_ref_pixels = compute_template_reference(template_binary)
+        print(f"Template Reference Scale (Foreground Pixels): {template_ref_pixels}")
+        
+        # Extract components from diagram_no_wire
+        components, labels_img, num_labels = extract_connected_components(diagram_no_wire)
+        print(f"Initial Connected Components (excluding background): {len(components)}")
+        
+        # Save colored components visualization
+        save_colored_components(DIAGRAM_OUT_DIR, num_labels, labels_img)
+        
+        # Progressively filter candidates
+        filter_results = filter_candidates(components, template_ref_pixels)
+        
+        all_comps = filter_results["all_components"]
+        after_area = filter_results["after_area"]
+        after_aspect = filter_results["after_aspect"]
+        final_candidates = filter_results["after_density"]
+        
+        # Save progressive overlays
+        save_candidate_overlays(DIAGRAM_OUT_DIR, "01_all_components.png", diagram_original, all_comps, (200, 200, 200))
+        save_candidate_overlays(DIAGRAM_OUT_DIR, "02_after_area_filter.png", diagram_original, after_area, (255, 165, 0))
+        save_candidate_overlays(DIAGRAM_OUT_DIR, "03_after_aspect_filter.png", diagram_original, after_aspect, (255, 255, 0))
+        save_candidate_overlays(DIAGRAM_OUT_DIR, "04_after_density_filter.png", diagram_original, final_candidates, (0, 255, 0))
+        
+        # Save final overlay with text and crop candidates
+        save_final_overlay(DIAGRAM_OUT_DIR, "final_candidate_overlay.png", diagram_original, final_candidates)
+        save_candidate_crops(DIAGRAM_OUT_DIR, diagram_original, final_candidates)
+        
+        # Compute Stage 2 Statistics
+        avg_area = sum(c["area"] for c in final_candidates) / len(final_candidates) if final_candidates else 0
+        avg_density = sum(c["density"] for c in final_candidates) / len(final_candidates) if final_candidates else 0
+        
+        print(f"  - Total components: {len(all_comps)}")
+        print(f"  - After area filtering: {len(after_area)}")
+        print(f"  - After aspect filtering: {len(after_aspect)}")
+        print(f"  - After density filtering (FINAL): {len(final_candidates)}")
+        print(f"  - Average candidate area: {avg_area:.1f} pixels")
+        print(f"  - Average candidate density: {avg_density:.3f}")
+        
+        # Save JSON metadata
+        rp_stats = {
+            "total_components": len(all_comps),
+            "after_area_filter": len(after_area),
+            "after_aspect_filter": len(after_aspect),
+            "after_density_filter": len(final_candidates),
+            "final_candidate_count": len(final_candidates),
+            "average_candidate_area": avg_area,
+            "average_candidate_density": avg_density,
+            "template_area_reference": template_ref_pixels,
+            "filter_thresholds": filter_results["thresholds"],
+            "final_candidates_metadata": [
+                {
+                    "label": int(c["label"]),
+                    "bbox": [int(x) for x in c["bbox"]],
+                    "area": int(c["area"]),
+                    "aspect_ratio": float(c["aspect_ratio"]),
+                    "density": float(c["density"]),
+                    "centroid": [float(x) for x in c["centroid"]],
+                    "crop_path": c.get("crop_path", "")
+                } for c in final_candidates
+            ]
+        }
+        
+        with open(os.path.join(DIAGRAM_OUT_DIR, "region_proposal_stats.json"), "w") as f:
+            json.dump(rp_stats, f, indent=2)
+            
+        print("\n" + "=" * 50)
+        print("STAGE 2 COMPLETED SUCCESSFULLY")
+        print("Outputs saved to: outputs/diagram/")
+        print("=" * 50)
+
+    except Exception as e:
+        print(f"\n[ERROR] Pipeline failed: {e}")
+        import traceback
+        traceback.print_exc()
+
+if __name__ == "__main__":
+    main()
