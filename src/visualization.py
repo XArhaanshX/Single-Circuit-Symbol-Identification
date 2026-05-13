@@ -176,3 +176,134 @@ def save_candidate_crops(output_dir: str, original_img: np.ndarray, candidates: 
         
         # update candidate with crop path
         c["crop_path"] = path
+
+def save_continuity_comparison_grid(output_dir: str, original_no_wire: np.ndarray, experiment_results: dict) -> None:
+    """
+    Generates a side-by-side comparison grid of all continuity recovery experiments.
+    Shows the original no_wire image alongside the candidate overlays from each experiment.
+    
+    Args:
+        output_dir: Directory to save the grid.
+        original_no_wire: The original no_wire binary image.
+        experiment_results: Dictionary mapping kernel_name -> overlaid candidate image.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    num_experiments = len(experiment_results)
+    num_plots = num_experiments + 1 # +1 for original no_wire
+    
+    cols = 2
+    rows = (num_plots + cols - 1) // cols
+    
+    fig, axes = plt.subplots(rows, cols, figsize=(cols * 6, rows * 4))
+    axes = np.array(axes).flatten()
+    
+    # Plot original no_wire
+    axes[0].imshow(original_no_wire, cmap='gray')
+    axes[0].set_title("Original no_wire (Stage 1)")
+    axes[0].axis('off')
+    
+    # Plot each experiment
+    for i, (kernel_name, overlay_img) in enumerate(experiment_results.items(), start=1):
+        if len(overlay_img.shape) == 3:
+            axes[i].imshow(cv2.cvtColor(overlay_img, cv2.COLOR_BGR2RGB))
+        else:
+            axes[i].imshow(overlay_img, cmap='gray')
+            
+        axes[i].set_title(f"Experiment: {kernel_name}")
+        axes[i].axis('off')
+        
+    # Hide any unused subplots
+    for i in range(num_plots, len(axes)):
+        axes[i].axis('off')
+        
+    plt.tight_layout()
+    plt.savefig(os.path.join(output_dir, "continuity_comparison_grid.png"), dpi=150)
+    plt.close(fig)
+
+def save_diagnostic_overlays(output_dir: str, original_img: np.ndarray, components_metadata: list) -> None:
+    """
+    Generates color-coded overlays for filter failures.
+    Red: rejected by area
+    Orange: rejected by aspect
+    Yellow: rejected by density
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    if len(original_img.shape) == 2:
+        img_rgb = cv2.cvtColor(original_img, cv2.COLOR_GRAY2BGR)
+    else:
+        img_rgb = original_img.copy()
+        
+    img_area = img_rgb.copy()
+    img_aspect = img_rgb.copy()
+    img_density = img_rgb.copy()
+    
+    # BGR format
+    color_red = (0, 0, 255)
+    color_orange = (0, 165, 255) 
+    color_yellow = (0, 255, 255)
+    
+    for c in components_metadata:
+        x, y, w, h = c["bbox"]
+        stage = c["rejected_stage"]
+        
+        if stage == "area":
+            cv2.rectangle(img_area, (x, y), (x+w, y+h), color_red, 2)
+            cv2.putText(img_area, str(c["label"]), (x, max(y-5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, color_red, 1)
+        elif stage == "aspect":
+            cv2.rectangle(img_aspect, (x, y), (x+w, y+h), color_orange, 2)
+            cv2.putText(img_aspect, str(c["label"]), (x, max(y-5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, color_orange, 1)
+        elif stage == "density":
+            cv2.rectangle(img_density, (x, y), (x+w, y+h), color_yellow, 2)
+            cv2.putText(img_density, str(c["label"]), (x, max(y-5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, color_yellow, 1)
+            
+    cv2.imwrite(os.path.join(output_dir, "rejected_by_area.png"), img_area)
+    cv2.imwrite(os.path.join(output_dir, "rejected_by_aspect.png"), img_aspect)
+    cv2.imwrite(os.path.join(output_dir, "rejected_by_density.png"), img_density)
+
+def save_large_components_overlay(output_dir: str, original_img: np.ndarray, components_metadata: list, template_area: int) -> None:
+    """
+    Overlays ALL large connected components where foreground_area > template_area_reference.
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    
+    if len(original_img.shape) == 2:
+        img_rgb = cv2.cvtColor(original_img, cv2.COLOR_GRAY2BGR)
+    else:
+        img_rgb = original_img.copy()
+        
+    color = (255, 0, 255) # Magenta for large structures
+    
+    for c in components_metadata:
+        if c["foreground_area"] > template_area:
+            x, y, w, h = c["bbox"]
+            cv2.rectangle(img_rgb, (x, y), (x+w, y+h), color, 2)
+            cv2.putText(img_rgb, f"ID:{c['label']} Area:{c['foreground_area']}", (x, max(y-5, 10)), cv2.FONT_HERSHEY_SIMPLEX, 0.4, color, 1)
+            
+    cv2.imwrite(os.path.join(output_dir, "large_components_overlay.png"), img_rgb)
+
+def save_all_component_crops(output_dir: str, original_img: np.ndarray, components: list) -> None:
+    """
+    Saves cropped PNGs of EVERY component before filtering into all_component_crops/.
+    """
+    crops_dir = os.path.join(output_dir, "all_component_crops")
+    os.makedirs(crops_dir, exist_ok=True)
+    
+    img_h, img_w = original_img.shape[:2]
+    
+    for c in components:
+        x, y, w, h = c["bbox"]
+        label = c["label"]
+        
+        pad = 5
+        x1 = max(0, x - pad)
+        y1 = max(0, y - pad)
+        x2 = min(img_w, x + w + pad)
+        y2 = min(img_h, y + h + pad)
+        
+        crop = original_img[y1:y2, x1:x2]
+        
+        filename = f"component_{label:03d}.png"
+        path = os.path.join(crops_dir, filename)
+        cv2.imwrite(path, crop)

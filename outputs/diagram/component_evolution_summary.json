@@ -1,0 +1,62 @@
+[
+  {
+    "kernel_type": "rect",
+    "kernel_size": [
+      3,
+      3
+    ],
+    "total_components": 142,
+    "final_candidates": 8,
+    "largest_component_area": 1435,
+    "mr_region_candidate_count": 8,
+    "notes": "Stable."
+  },
+  {
+    "kernel_type": "rect",
+    "kernel_size": [
+      5,
+      3
+    ],
+    "total_components": 115,
+    "final_candidates": 11,
+    "largest_component_area": 1601,
+    "mr_region_candidate_count": 11,
+    "notes": "Stable."
+  },
+  {
+    "kernel_type": "rect",
+    "kernel_size": [
+      3,
+      5
+    ],
+    "total_components": 101,
+    "final_candidates": 12,
+    "largest_component_area": 1516,
+    "mr_region_candidate_count": 12,
+    "notes": "Stable."
+  },
+  {
+    "kernel_type": "ellipse",
+    "kernel_size": [
+      3,
+      3
+    ],
+    "total_components": 167,
+    "final_candidates": 4,
+    "largest_component_area": 1295,
+    "mr_region_candidate_count": 4,
+    "notes": "Stable."
+  },
+  {
+    "kernel_type": "ellipse",
+    "kernel_size": [
+      5,
+      5
+    ],
+    "total_components": 126,
+    "final_candidates": 11,
+    "largest_component_area": 1606,
+    "mr_region_candidate_count": 11,
+    "notes": "Stable."
+  }
+]

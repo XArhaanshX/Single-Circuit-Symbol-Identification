@@ -1,0 +1,3782 @@
+[
+  {
+    "label": 1,
+    "bbox": [
+      272,
+      57,
+      15,
+      157
+    ],
+    "foreground_area": 519,
+    "bbox_area": 2355,
+    "aspect_ratio": 0.09554140127388536,
+    "density": 0.22038216560509555,
+    "centroid": [
+      278.9421965317919,
+      142.14643545279384
+    ],
+    "passed_area_filter": true,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "aspect"
+  },
+  {
+    "label": 2,
+    "bbox": [
+      1089,
+      63,
+      13,
+      152
+    ],
+    "foreground_area": 477,
+    "bbox_area": 1976,
+    "aspect_ratio": 0.08552631578947369,
+    "density": 0.24139676113360323,
+    "centroid": [
+      1094.9643605870021,
+      142.28511530398322
+    ],
+    "passed_area_filter": true,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "aspect"
+  },
+  {
+    "label": 3,
+    "bbox": [
+      1085,
+      69,
+      4,
+      6
+    ],
+    "foreground_area": 20,
+    "bbox_area": 24,
+    "aspect_ratio": 0.6666666666666666,
+    "density": 0.8333333333333334,
+    "centroid": [
+      1086.5,
+      71.5
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 4,
+    "bbox": [
+      128,
+      130,
+      11,
+      4
+    ],
+    "foreground_area": 34,
+    "bbox_area": 44,
+    "aspect_ratio": 2.75,
+    "density": 0.7727272727272727,
+    "centroid": [
+      133.0,
+      131.52941176470588
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 5,
+    "bbox": [
+      1195,
+      130,
+      11,
+      4
+    ],
+    "foreground_area": 35,
+    "bbox_area": 44,
+    "aspect_ratio": 2.75,
+    "density": 0.7954545454545454,
+    "centroid": [
+      1199.8857142857144,
+      131.57142857142858
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 6,
+    "bbox": [
+      286,
+      133,
+      18,
+      15
+    ],
+    "foreground_area": 160,
+    "bbox_area": 270,
+    "aspect_ratio": 1.2,
+    "density": 0.5925925925925926,
+    "centroid": [
+      294.05625,
+      139.875
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 7,
+    "bbox": [
+      124,
+      139,
+      18,
+      3
+    ],
+    "foreground_area": 50,
+    "bbox_area": 54,
+    "aspect_ratio": 6.0,
+    "density": 0.9259259259259259,
+    "centroid": [
+      132.5,
+      140.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 8,
+    "bbox": [
+      1103,
+      139,
+      18,
+      15
+    ],
+    "foreground_area": 154,
+    "bbox_area": 270,
+    "aspect_ratio": 1.2,
+    "density": 0.5703703703703704,
+    "centroid": [
+      1110.7012987012988,
+      146.12337662337663
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 9,
+    "bbox": [
+      1191,
+      139,
+      19,
+      3
+    ],
+    "foreground_area": 53,
+    "bbox_area": 57,
+    "aspect_ratio": 6.333333333333333,
+    "density": 0.9298245614035088,
+    "centroid": [
+      1200.0,
+      140.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 10,
+    "bbox": [
+      120,
+      147,
+      27,
+      38
+    ],
+    "foreground_area": 223,
+    "bbox_area": 1026,
+    "aspect_ratio": 0.7105263157894737,
+    "density": 0.21734892787524365,
+    "centroid": [
+      132.6322869955157,
+      159.60986547085201
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 11,
+    "bbox": [
+      1187,
+      147,
+      26,
+      38
+    ],
+    "foreground_area": 199,
+    "bbox_area": 988,
+    "aspect_ratio": 0.6842105263157895,
+    "density": 0.201417004048583,
+    "centroid": [
+      1199.3266331658292,
+      158.56281407035175
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 12,
+    "bbox": [
+      286,
+      150,
+      18,
+      41
+    ],
+    "foreground_area": 378,
+    "bbox_area": 738,
+    "aspect_ratio": 0.43902439024390244,
+    "density": 0.5121951219512195,
+    "centroid": [
+      295.12698412698415,
+      168.97883597883597
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 13,
+    "bbox": [
+      816,
+      150,
+      6,
+      3
+    ],
+    "foreground_area": 17,
+    "bbox_area": 18,
+    "aspect_ratio": 2.0,
+    "density": 0.9444444444444444,
+    "centroid": [
+      818.3529411764706,
+      150.94117647058823
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 14,
+    "bbox": [
+      813,
+      156,
+      13,
+      4
+    ],
+    "foreground_area": 43,
+    "bbox_area": 52,
+    "aspect_ratio": 3.25,
+    "density": 0.8269230769230769,
+    "centroid": [
+      819.1162790697674,
+      157.53488372093022
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 15,
+    "bbox": [
+      1103,
+      156,
+      17,
+      12
+    ],
+    "foreground_area": 121,
+    "bbox_area": 204,
+    "aspect_ratio": 1.4166666666666667,
+    "density": 0.5931372549019608,
+    "centroid": [
+      1111.3471074380166,
+      161.25619834710744
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 16,
+    "bbox": [
+      670,
+      164,
+      14,
+      20
+    ],
+    "foreground_area": 123,
+    "bbox_area": 280,
+    "aspect_ratio": 0.7,
+    "density": 0.4392857142857143,
+    "centroid": [
+      676.5447154471544,
+      171.3089430894309
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 17,
+    "bbox": [
+      687,
+      164,
+      8,
+      20
+    ],
+    "foreground_area": 107,
+    "bbox_area": 160,
+    "aspect_ratio": 0.4,
+    "density": 0.66875,
+    "centroid": [
+      691.3831775700935,
+      173.39252336448598
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 18,
+    "bbox": [
+      699,
+      164,
+      13,
+      21
+    ],
+    "foreground_area": 158,
+    "bbox_area": 273,
+    "aspect_ratio": 0.6190476190476191,
+    "density": 0.5787545787545788,
+    "centroid": [
+      705.746835443038,
+      173.84810126582278
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 19,
+    "bbox": [
+      809,
+      164,
+      21,
+      11
+    ],
+    "foreground_area": 90,
+    "bbox_area": 231,
+    "aspect_ratio": 1.9090909090909092,
+    "density": 0.38961038961038963,
+    "centroid": [
+      818.8666666666667,
+      166.61111111111111
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 20,
+    "bbox": [
+      1102,
+      170,
+      18,
+      13
+    ],
+    "foreground_area": 122,
+    "bbox_area": 234,
+    "aspect_ratio": 1.3846153846153846,
+    "density": 0.5213675213675214,
+    "centroid": [
+      1110.8688524590164,
+      176.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 21,
+    "bbox": [
+      812,
+      178,
+      13,
+      13
+    ],
+    "foreground_area": 113,
+    "bbox_area": 169,
+    "aspect_ratio": 1.0,
+    "density": 0.6686390532544378,
+    "centroid": [
+      818.6460176991151,
+      184.1946902654867
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 22,
+    "bbox": [
+      765,
+      183,
+      44,
+      30
+    ],
+    "foreground_area": 257,
+    "bbox_area": 1320,
+    "aspect_ratio": 1.4666666666666666,
+    "density": 0.1946969696969697,
+    "centroid": [
+      777.0194552529183,
+      192.0466926070039
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 23,
+    "bbox": [
+      1104,
+      184,
+      16,
+      14
+    ],
+    "foreground_area": 120,
+    "bbox_area": 224,
+    "aspect_ratio": 1.1428571428571428,
+    "density": 0.5357142857142857,
+    "centroid": [
+      1112.125,
+      190.24166666666667
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 24,
+    "bbox": [
+      660,
+      193,
+      5,
+      26
+    ],
+    "foreground_area": 88,
+    "bbox_area": 130,
+    "aspect_ratio": 0.19230769230769232,
+    "density": 0.676923076923077,
+    "centroid": [
+      661.5113636363636,
+      206.97727272727272
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 25,
+    "bbox": [
+      1025,
+      193,
+      5,
+      23
+    ],
+    "foreground_area": 79,
+    "bbox_area": 115,
+    "aspect_ratio": 0.21739130434782608,
+    "density": 0.6869565217391305,
+    "centroid": [
+      1027.1645569620252,
+      203.50632911392404
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 26,
+    "bbox": [
+      113,
+      195,
+      38,
+      91
+    ],
+    "foreground_area": 797,
+    "bbox_area": 3458,
+    "aspect_ratio": 0.4175824175824176,
+    "density": 0.23048004626951996,
+    "centroid": [
+      131.19071518193223,
+      245.18695106649938
+    ],
+    "passed_area_filter": true,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": null
+  },
+  {
+    "label": 27,
+    "bbox": [
+      342,
+      195,
+      12,
+      19
+    ],
+    "foreground_area": 95,
+    "bbox_area": 228,
+    "aspect_ratio": 0.631578947368421,
+    "density": 0.4166666666666667,
+    "centroid": [
+      345.42105263157896,
+      203.50526315789475
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 28,
+    "bbox": [
+      395,
+      194,
+      4,
+      24
+    ],
+    "foreground_area": 73,
+    "bbox_area": 96,
+    "aspect_ratio": 0.16666666666666666,
+    "density": 0.7604166666666666,
+    "centroid": [
+      396.82191780821915,
+      205.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 29,
+    "bbox": [
+      442,
+      195,
+      19,
+      19
+    ],
+    "foreground_area": 108,
+    "bbox_area": 361,
+    "aspect_ratio": 1.0,
+    "density": 0.29916897506925205,
+    "centroid": [
+      451.0925925925926,
+      203.5185185185185
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 30,
+    "bbox": [
+      502,
+      194,
+      4,
+      20
+    ],
+    "foreground_area": 69,
+    "bbox_area": 80,
+    "aspect_ratio": 0.2,
+    "density": 0.8625,
+    "centroid": [
+      503.69565217391306,
+      203.20289855072463
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 31,
+    "bbox": [
+      550,
+      195,
+      18,
+      19
+    ],
+    "foreground_area": 100,
+    "bbox_area": 342,
+    "aspect_ratio": 0.9473684210526315,
+    "density": 0.29239766081871343,
+    "centroid": [
+      558.51,
+      203.45
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 32,
+    "bbox": [
+      609,
+      195,
+      4,
+      19
+    ],
+    "foreground_area": 71,
+    "bbox_area": 76,
+    "aspect_ratio": 0.21052631578947367,
+    "density": 0.9342105263157895,
+    "centroid": [
+      610.5633802816901,
+      203.91549295774647
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 33,
+    "bbox": [
+      817,
+      195,
+      5,
+      19
+    ],
+    "foreground_area": 64,
+    "bbox_area": 95,
+    "aspect_ratio": 0.2631578947368421,
+    "density": 0.6736842105263158,
+    "centroid": [
+      819.015625,
+      204.078125
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 34,
+    "bbox": [
+      869,
+      194,
+      5,
+      19
+    ],
+    "foreground_area": 73,
+    "bbox_area": 95,
+    "aspect_ratio": 0.2631578947368421,
+    "density": 0.7684210526315789,
+    "centroid": [
+      870.6164383561644,
+      203.7123287671233
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 35,
+    "bbox": [
+      915,
+      195,
+      11,
+      19
+    ],
+    "foreground_area": 82,
+    "bbox_area": 209,
+    "aspect_ratio": 0.5789473684210527,
+    "density": 0.3923444976076555,
+    "centroid": [
+      921.8048780487804,
+      203.8658536585366
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 36,
+    "bbox": [
+      973,
+      194,
+      5,
+      21
+    ],
+    "foreground_area": 84,
+    "bbox_area": 105,
+    "aspect_ratio": 0.23809523809523808,
+    "density": 0.8,
+    "centroid": [
+      974.6309523809524,
+      203.53571428571428
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 37,
+    "bbox": [
+      1131,
+      195,
+      87,
+      91
+    ],
+    "foreground_area": 1292,
+    "bbox_area": 7917,
+    "aspect_ratio": 0.9560439560439561,
+    "density": 0.1631931287103701,
+    "centroid": [
+      1184.1904024767803,
+      238.2453560371517
+    ],
+    "passed_area_filter": true,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": null
+  },
+  {
+    "label": 38,
+    "bbox": [
+      713,
+      198,
+      5,
+      48
+    ],
+    "foreground_area": 174,
+    "bbox_area": 240,
+    "aspect_ratio": 0.10416666666666667,
+    "density": 0.725,
+    "centroid": [
+      715.3678160919541,
+      221.61494252873564
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 39,
+    "bbox": [
+      337,
+      202,
+      3,
+      4
+    ],
+    "foreground_area": 11,
+    "bbox_area": 12,
+    "aspect_ratio": 0.75,
+    "density": 0.9166666666666666,
+    "centroid": [
+      338.09090909090907,
+      203.36363636363637
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 40,
+    "bbox": [
+      810,
+      202,
+      5,
+      4
+    ],
+    "foreground_area": 18,
+    "bbox_area": 20,
+    "aspect_ratio": 1.25,
+    "density": 0.9,
+    "centroid": [
+      812.2222222222222,
+      203.5
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 41,
+    "bbox": [
+      824,
+      202,
+      5,
+      4
+    ],
+    "foreground_area": 18,
+    "bbox_area": 20,
+    "aspect_ratio": 1.25,
+    "density": 0.9,
+    "centroid": [
+      825.8333333333334,
+      203.66666666666666
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 42,
+    "bbox": [
+      927,
+      202,
+      6,
+      4
+    ],
+    "foreground_area": 16,
+    "bbox_area": 24,
+    "aspect_ratio": 1.5,
+    "density": 0.6666666666666666,
+    "centroid": [
+      929.5625,
+      203.625
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 43,
+    "bbox": [
+      1019,
+      202,
+      5,
+      4
+    ],
+    "foreground_area": 15,
+    "bbox_area": 20,
+    "aspect_ratio": 1.25,
+    "density": 0.75,
+    "centroid": [
+      1021.0666666666667,
+      203.8
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 44,
+    "bbox": [
+      1032,
+      202,
+      3,
+      4
+    ],
+    "foreground_area": 9,
+    "bbox_area": 12,
+    "aspect_ratio": 0.75,
+    "density": 0.75,
+    "centroid": [
+      1032.888888888889,
+      203.66666666666666
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 45,
+    "bbox": [
+      225,
+      212,
+      18,
+      7
+    ],
+    "foreground_area": 89,
+    "bbox_area": 126,
+    "aspect_ratio": 2.5714285714285716,
+    "density": 0.7063492063492064,
+    "centroid": [
+      233.80898876404495,
+      215.57303370786516
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 46,
+    "bbox": [
+      668,
+      212,
+      42,
+      21
+    ],
+    "foreground_area": 452,
+    "bbox_area": 882,
+    "aspect_ratio": 2.0,
+    "density": 0.5124716553287982,
+    "centroid": [
+      689.3761061946902,
+      222.4579646017699
+    ],
+    "passed_area_filter": true,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": null
+  },
+  {
+    "label": 47,
+    "bbox": [
+      342,
+      217,
+      3,
+      2
+    ],
+    "foreground_area": 3,
+    "bbox_area": 6,
+    "aspect_ratio": 1.5,
+    "density": 0.5,
+    "centroid": [
+      343.0,
+      217.33333333333334
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 48,
+    "bbox": [
+      974,
+      217,
+      2,
+      1
+    ],
+    "foreground_area": 2,
+    "bbox_area": 2,
+    "aspect_ratio": 2.0,
+    "density": 1.0,
+    "centroid": [
+      974.5,
+      217.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 49,
+    "bbox": [
+      1001,
+      217,
+      30,
+      2
+    ],
+    "foreground_area": 32,
+    "bbox_area": 60,
+    "aspect_ratio": 15.0,
+    "density": 0.5333333333333333,
+    "centroid": [
+      1016.25,
+      217.9375
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 50,
+    "bbox": [
+      246,
+      219,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      246.0,
+      219.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 51,
+    "bbox": [
+      248,
+      218,
+      29,
+      1
+    ],
+    "foreground_area": 29,
+    "bbox_area": 29,
+    "aspect_ratio": 29.0,
+    "density": 1.0,
+    "centroid": [
+      262.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 52,
+    "bbox": [
+      279,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      279.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 53,
+    "bbox": [
+      402,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      402.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 54,
+    "bbox": [
+      722,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      722.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 55,
+    "bbox": [
+      817,
+      218,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      819.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 56,
+    "bbox": [
+      824,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      824.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 57,
+    "bbox": [
+      921,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      921.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 58,
+    "bbox": [
+      980,
+      218,
+      19,
+      1
+    ],
+    "foreground_area": 19,
+    "bbox_area": 19,
+    "aspect_ratio": 19.0,
+    "density": 1.0,
+    "centroid": [
+      989.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 59,
+    "bbox": [
+      1032,
+      218,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      1032.0,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 60,
+    "bbox": [
+      1094,
+      218,
+      4,
+      1
+    ],
+    "foreground_area": 4,
+    "bbox_area": 4,
+    "aspect_ratio": 4.0,
+    "density": 1.0,
+    "centroid": [
+      1095.5,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 61,
+    "bbox": [
+      1099,
+      218,
+      28,
+      1
+    ],
+    "foreground_area": 28,
+    "bbox_area": 28,
+    "aspect_ratio": 28.0,
+    "density": 1.0,
+    "centroid": [
+      1112.5,
+      218.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 62,
+    "bbox": [
+      1226,
+      218,
+      3,
+      6
+    ],
+    "foreground_area": 6,
+    "bbox_area": 18,
+    "aspect_ratio": 0.5,
+    "density": 0.3333333333333333,
+    "centroid": [
+      1226.6666666666667,
+      220.5
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 63,
+    "bbox": [
+      149,
+      221,
+      2,
+      2
+    ],
+    "foreground_area": 2,
+    "bbox_area": 4,
+    "aspect_ratio": 1.0,
+    "density": 0.5,
+    "centroid": [
+      149.5,
+      221.5
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 64,
+    "bbox": [
+      0,
+      223,
+      4,
+      1
+    ],
+    "foreground_area": 4,
+    "bbox_area": 4,
+    "aspect_ratio": 4.0,
+    "density": 1.0,
+    "centroid": [
+      1.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 65,
+    "bbox": [
+      9,
+      223,
+      29,
+      1
+    ],
+    "foreground_area": 29,
+    "bbox_area": 29,
+    "aspect_ratio": 29.0,
+    "density": 1.0,
+    "centroid": [
+      23.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 66,
+    "bbox": [
+      90,
+      223,
+      13,
+      1
+    ],
+    "foreground_area": 13,
+    "bbox_area": 13,
+    "aspect_ratio": 13.0,
+    "density": 1.0,
+    "centroid": [
+      96.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 67,
+    "bbox": [
+      152,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      152.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 68,
+    "bbox": [
+      218,
+      223,
+      2,
+      1
+    ],
+    "foreground_area": 2,
+    "bbox_area": 2,
+    "aspect_ratio": 2.0,
+    "density": 1.0,
+    "centroid": [
+      218.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 69,
+    "bbox": [
+      225,
+      223,
+      19,
+      7
+    ],
+    "foreground_area": 88,
+    "bbox_area": 133,
+    "aspect_ratio": 2.7142857142857144,
+    "density": 0.6616541353383458,
+    "centroid": [
+      233.9431818181818,
+      225.3068181818182
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 70,
+    "bbox": [
+      251,
+      223,
+      15,
+      1
+    ],
+    "foreground_area": 15,
+    "bbox_area": 15,
+    "aspect_ratio": 15.0,
+    "density": 1.0,
+    "centroid": [
+      258.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 71,
+    "bbox": [
+      272,
+      223,
+      4,
+      1
+    ],
+    "foreground_area": 4,
+    "bbox_area": 4,
+    "aspect_ratio": 4.0,
+    "density": 1.0,
+    "centroid": [
+      273.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 72,
+    "bbox": [
+      283,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      285.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 73,
+    "bbox": [
+      295,
+      223,
+      42,
+      1
+    ],
+    "foreground_area": 42,
+    "bbox_area": 42,
+    "aspect_ratio": 42.0,
+    "density": 1.0,
+    "centroid": [
+      315.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 74,
+    "bbox": [
+      345,
+      223,
+      4,
+      2
+    ],
+    "foreground_area": 6,
+    "bbox_area": 8,
+    "aspect_ratio": 2.0,
+    "density": 0.75,
+    "centroid": [
+      346.5,
+      223.33333333333334
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 75,
+    "bbox": [
+      355,
+      223,
+      6,
+      1
+    ],
+    "foreground_area": 6,
+    "bbox_area": 6,
+    "aspect_ratio": 6.0,
+    "density": 1.0,
+    "centroid": [
+      357.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 76,
+    "bbox": [
+      346,
+      223,
+      28,
+      12
+    ],
+    "foreground_area": 100,
+    "bbox_area": 336,
+    "aspect_ratio": 2.3333333333333335,
+    "density": 0.2976190476190476,
+    "centroid": [
+      359.54,
+      230.16
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 77,
+    "bbox": [
+      383,
+      223,
+      3,
+      1
+    ],
+    "foreground_area": 3,
+    "bbox_area": 3,
+    "aspect_ratio": 3.0,
+    "density": 1.0,
+    "centroid": [
+      384.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 78,
+    "bbox": [
+      394,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      396.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 79,
+    "bbox": [
+      403,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      403.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 80,
+    "bbox": [
+      405,
+      223,
+      2,
+      1
+    ],
+    "foreground_area": 2,
+    "bbox_area": 2,
+    "aspect_ratio": 2.0,
+    "density": 1.0,
+    "centroid": [
+      405.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 81,
+    "bbox": [
+      409,
+      223,
+      34,
+      1
+    ],
+    "foreground_area": 34,
+    "bbox_area": 34,
+    "aspect_ratio": 34.0,
+    "density": 1.0,
+    "centroid": [
+      425.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 82,
+    "bbox": [
+      450,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      452.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 83,
+    "bbox": [
+      460,
+      223,
+      7,
+      1
+    ],
+    "foreground_area": 7,
+    "bbox_area": 7,
+    "aspect_ratio": 7.0,
+    "density": 1.0,
+    "centroid": [
+      463.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 84,
+    "bbox": [
+      469,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      469.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 85,
+    "bbox": [
+      475,
+      223,
+      6,
+      2
+    ],
+    "foreground_area": 9,
+    "bbox_area": 12,
+    "aspect_ratio": 3.0,
+    "density": 0.75,
+    "centroid": [
+      477.3333333333333,
+      223.33333333333334
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 86,
+    "bbox": [
+      488,
+      223,
+      8,
+      1
+    ],
+    "foreground_area": 8,
+    "bbox_area": 8,
+    "aspect_ratio": 8.0,
+    "density": 1.0,
+    "centroid": [
+      491.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 87,
+    "bbox": [
+      500,
+      223,
+      6,
+      1
+    ],
+    "foreground_area": 6,
+    "bbox_area": 6,
+    "aspect_ratio": 6.0,
+    "density": 1.0,
+    "centroid": [
+      502.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 88,
+    "bbox": [
+      516,
+      223,
+      36,
+      1
+    ],
+    "foreground_area": 36,
+    "bbox_area": 36,
+    "aspect_ratio": 36.0,
+    "density": 1.0,
+    "centroid": [
+      533.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 89,
+    "bbox": [
+      558,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      560.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 90,
+    "bbox": [
+      574,
+      223,
+      2,
+      1
+    ],
+    "foreground_area": 2,
+    "bbox_area": 2,
+    "aspect_ratio": 2.0,
+    "density": 1.0,
+    "centroid": [
+      574.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 91,
+    "bbox": [
+      583,
+      223,
+      6,
+      2
+    ],
+    "foreground_area": 8,
+    "bbox_area": 12,
+    "aspect_ratio": 3.0,
+    "density": 0.6666666666666666,
+    "centroid": [
+      585.5,
+      223.25
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 92,
+    "bbox": [
+      593,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      593.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 93,
+    "bbox": [
+      609,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      611.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 94,
+    "bbox": [
+      620,
+      223,
+      33,
+      1
+    ],
+    "foreground_area": 33,
+    "bbox_area": 33,
+    "aspect_ratio": 33.0,
+    "density": 1.0,
+    "centroid": [
+      636.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 95,
+    "bbox": [
+      660,
+      223,
+      7,
+      26
+    ],
+    "foreground_area": 98,
+    "bbox_area": 182,
+    "aspect_ratio": 0.2692307692307692,
+    "density": 0.5384615384615384,
+    "centroid": [
+      661.7142857142857,
+      235.14285714285714
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 96,
+    "bbox": [
+      726,
+      223,
+      34,
+      1
+    ],
+    "foreground_area": 34,
+    "bbox_area": 34,
+    "aspect_ratio": 34.0,
+    "density": 1.0,
+    "centroid": [
+      742.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 97,
+    "bbox": [
+      766,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      768.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 98,
+    "bbox": [
+      776,
+      223,
+      8,
+      1
+    ],
+    "foreground_area": 8,
+    "bbox_area": 8,
+    "aspect_ratio": 8.0,
+    "density": 1.0,
+    "centroid": [
+      779.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 99,
+    "bbox": [
+      790,
+      223,
+      6,
+      2
+    ],
+    "foreground_area": 8,
+    "bbox_area": 12,
+    "aspect_ratio": 3.0,
+    "density": 0.6666666666666666,
+    "centroid": [
+      792.75,
+      223.25
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 100,
+    "bbox": [
+      804,
+      223,
+      7,
+      1
+    ],
+    "foreground_area": 7,
+    "bbox_area": 7,
+    "aspect_ratio": 7.0,
+    "density": 1.0,
+    "centroid": [
+      807.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 101,
+    "bbox": [
+      817,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      819.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 102,
+    "bbox": [
+      825,
+      223,
+      40,
+      1
+    ],
+    "foreground_area": 40,
+    "bbox_area": 40,
+    "aspect_ratio": 40.0,
+    "density": 1.0,
+    "centroid": [
+      844.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 103,
+    "bbox": [
+      869,
+      223,
+      6,
+      1
+    ],
+    "foreground_area": 6,
+    "bbox_area": 6,
+    "aspect_ratio": 6.0,
+    "density": 1.0,
+    "centroid": [
+      871.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 104,
+    "bbox": [
+      880,
+      223,
+      4,
+      1
+    ],
+    "foreground_area": 4,
+    "bbox_area": 4,
+    "aspect_ratio": 4.0,
+    "density": 1.0,
+    "centroid": [
+      881.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 105,
+    "bbox": [
+      887,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      887.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 106,
+    "bbox": [
+      894,
+      223,
+      6,
+      2
+    ],
+    "foreground_area": 8,
+    "bbox_area": 12,
+    "aspect_ratio": 3.0,
+    "density": 0.6666666666666666,
+    "centroid": [
+      896.75,
+      223.25
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 107,
+    "bbox": [
+      906,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      906.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 108,
+    "bbox": [
+      909,
+      223,
+      4,
+      1
+    ],
+    "foreground_area": 4,
+    "bbox_area": 4,
+    "aspect_ratio": 4.0,
+    "density": 1.0,
+    "centroid": [
+      910.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 109,
+    "bbox": [
+      921,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      923.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 110,
+    "bbox": [
+      930,
+      223,
+      37,
+      1
+    ],
+    "foreground_area": 37,
+    "bbox_area": 37,
+    "aspect_ratio": 37.0,
+    "density": 1.0,
+    "centroid": [
+      948.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 111,
+    "bbox": [
+      973,
+      223,
+      6,
+      1
+    ],
+    "foreground_area": 6,
+    "bbox_area": 6,
+    "aspect_ratio": 6.0,
+    "density": 1.0,
+    "centroid": [
+      975.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 112,
+    "bbox": [
+      990,
+      223,
+      1,
+      1
+    ],
+    "foreground_area": 1,
+    "bbox_area": 1,
+    "aspect_ratio": 1.0,
+    "density": 1.0,
+    "centroid": [
+      990.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 113,
+    "bbox": [
+      998,
+      223,
+      6,
+      3
+    ],
+    "foreground_area": 13,
+    "bbox_area": 18,
+    "aspect_ratio": 2.0,
+    "density": 0.7222222222222222,
+    "centroid": [
+      1000.9230769230769,
+      223.76923076923077
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 114,
+    "bbox": [
+      1012,
+      223,
+      5,
+      1
+    ],
+    "foreground_area": 5,
+    "bbox_area": 5,
+    "aspect_ratio": 5.0,
+    "density": 1.0,
+    "centroid": [
+      1014.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 115,
+    "bbox": [
+      1024,
+      223,
+      6,
+      1
+    ],
+    "foreground_area": 6,
+    "bbox_area": 6,
+    "aspect_ratio": 6.0,
+    "density": 1.0,
+    "centroid": [
+      1026.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 116,
+    "bbox": [
+      1034,
+      223,
+      48,
+      1
+    ],
+    "foreground_area": 48,
+    "bbox_area": 48,
+    "aspect_ratio": 48.0,
+    "density": 1.0,
+    "centroid": [
+      1057.5,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 117,
+    "bbox": [
+      1085,
+      223,
+      7,
+      1
+    ],
+    "foreground_area": 7,
+    "bbox_area": 7,
+    "aspect_ratio": 7.0,
+    "density": 1.0,
+    "centroid": [
+      1088.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 118,
+    "bbox": [
+      1099,
+      223,
+      7,
+      1
+    ],
+    "foreground_area": 7,
+    "bbox_area": 7,
+    "aspect_ratio": 7.0,
+    "density": 1.0,
+    "centroid": [
+      1102.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 119,
+    "bbox": [
+      1109,
+      223,
+      17,
+      1
+    ],
+    "foreground_area": 17,
+    "bbox_area": 17,
+    "aspect_ratio": 17.0,
+    "density": 1.0,
+    "centroid": [
+      1117.0,
+      223.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 120,
+    "bbox": [
+      272,
+      227,
+      14,
+      8
+    ],
+    "foreground_area": 57,
+    "bbox_area": 112,
+    "aspect_ratio": 1.75,
+    "density": 0.5089285714285714,
+    "centroid": [
+      278.6842105263158,
+      230.6315789473684
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 121,
+    "bbox": [
+      373,
+      226,
+      23,
+      9
+    ],
+    "foreground_area": 88,
+    "bbox_area": 207,
+    "aspect_ratio": 2.5555555555555554,
+    "density": 0.4251207729468599,
+    "centroid": [
+      384.40909090909093,
+      230.95454545454547
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 122,
+    "bbox": [
+      453,
+      227,
+      22,
+      8
+    ],
+    "foreground_area": 75,
+    "bbox_area": 176,
+    "aspect_ratio": 2.75,
+    "density": 0.42613636363636365,
+    "centroid": [
+      463.4533333333333,
+      231.33333333333334
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 123,
+    "bbox": [
+      481,
+      227,
+      22,
+      8
+    ],
+    "foreground_area": 77,
+    "bbox_area": 176,
+    "aspect_ratio": 2.75,
+    "density": 0.4375,
+    "centroid": [
+      491.2597402597403,
+      231.14285714285714
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 124,
+    "bbox": [
+      588,
+      227,
+      22,
+      8
+    ],
+    "foreground_area": 77,
+    "bbox_area": 176,
+    "aspect_ratio": 2.75,
+    "density": 0.4375,
+    "centroid": [
+      598.987012987013,
+      231.35064935064935
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 125,
+    "bbox": [
+      768,
+      227,
+      23,
+      8
+    ],
+    "foreground_area": 75,
+    "bbox_area": 184,
+    "aspect_ratio": 2.875,
+    "density": 0.4076086956521739,
+    "centroid": [
+      778.9466666666667,
+      231.33333333333334
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 126,
+    "bbox": [
+      796,
+      227,
+      22,
+      8
+    ],
+    "foreground_area": 77,
+    "bbox_area": 176,
+    "aspect_ratio": 2.75,
+    "density": 0.4375,
+    "centroid": [
+      806.3636363636364,
+      231.19480519480518
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 127,
+    "bbox": [
+      872,
+      227,
+      23,
+      8
+    ],
+    "foreground_area": 78,
+    "bbox_area": 184,
+    "aspect_ratio": 2.875,
+    "density": 0.42391304347826086,
+    "centroid": [
+      882.8846153846154,
+      231.2948717948718
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 128,
+    "bbox": [
+      900,
+      227,
+      22,
+      8
+    ],
+    "foreground_area": 80,
+    "bbox_area": 176,
+    "aspect_ratio": 2.75,
+    "density": 0.45454545454545453,
+    "centroid": [
+      910.35,
+      231.225
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 129,
+    "bbox": [
+      976,
+      227,
+      23,
+      8
+    ],
+    "foreground_area": 85,
+    "bbox_area": 184,
+    "aspect_ratio": 2.875,
+    "density": 0.46195652173913043,
+    "centroid": [
+      986.9882352941177,
+      231.12941176470588
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 130,
+    "bbox": [
+      1004,
+      227,
+      23,
+      8
+    ],
+    "foreground_area": 88,
+    "bbox_area": 184,
+    "aspect_ratio": 2.875,
+    "density": 0.4782608695652174,
+    "centroid": [
+      1014.625,
+      230.95454545454547
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 131,
+    "bbox": [
+      561,
+      228,
+      23,
+      7
+    ],
+    "foreground_area": 78,
+    "bbox_area": 161,
+    "aspect_ratio": 3.2857142857142856,
+    "density": 0.484472049689441,
+    "centroid": [
+      571.7692307692307,
+      231.34615384615384
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 132,
+    "bbox": [
+      1088,
+      228,
+      15,
+      13
+    ],
+    "foreground_area": 95,
+    "bbox_area": 195,
+    "aspect_ratio": 1.1538461538461537,
+    "density": 0.48717948717948717,
+    "centroid": [
+      1095.0105263157895,
+      234.56842105263158
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 133,
+    "bbox": [
+      671,
+      245,
+      36,
+      1
+    ],
+    "foreground_area": 36,
+    "bbox_area": 36,
+    "aspect_ratio": 36.0,
+    "density": 1.0,
+    "centroid": [
+      688.5,
+      245.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 134,
+    "bbox": [
+      684,
+      249,
+      3,
+      1
+    ],
+    "foreground_area": 3,
+    "bbox_area": 3,
+    "aspect_ratio": 3.0,
+    "density": 1.0,
+    "centroid": [
+      685.0,
+      249.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 135,
+    "bbox": [
+      123,
+      257,
+      12,
+      19
+    ],
+    "foreground_area": 114,
+    "bbox_area": 228,
+    "aspect_ratio": 0.631578947368421,
+    "density": 0.5,
+    "centroid": [
+      126.91228070175438,
+      266.60526315789474
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 136,
+    "bbox": [
+      135,
+      257,
+      6,
+      18
+    ],
+    "foreground_area": 78,
+    "bbox_area": 108,
+    "aspect_ratio": 0.3333333333333333,
+    "density": 0.7222222222222222,
+    "centroid": [
+      137.89743589743588,
+      265.5128205128205
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 137,
+    "bbox": [
+      697,
+      256,
+      15,
+      19
+    ],
+    "foreground_area": 174,
+    "bbox_area": 285,
+    "aspect_ratio": 0.7894736842105263,
+    "density": 0.6105263157894737,
+    "centroid": [
+      704.028735632184,
+      265.17816091954023
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 138,
+    "bbox": [
+      1190,
+      257,
+      8,
+      18
+    ],
+    "foreground_area": 94,
+    "bbox_area": 144,
+    "aspect_ratio": 0.4444444444444444,
+    "density": 0.6527777777777778,
+    "centroid": [
+      1193.3829787234042,
+      265.4574468085106
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 139,
+    "bbox": [
+      989,
+      259,
+      12,
+      21
+    ],
+    "foreground_area": 136,
+    "bbox_area": 252,
+    "aspect_ratio": 0.5714285714285714,
+    "density": 0.5396825396825397,
+    "centroid": [
+      993.2720588235294,
+      268.94117647058823
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 140,
+    "bbox": [
+      1002,
+      259,
+      5,
+      19
+    ],
+    "foreground_area": 70,
+    "bbox_area": 95,
+    "aspect_ratio": 0.2631578947368421,
+    "density": 0.7368421052631579,
+    "centroid": [
+      1004.3,
+      267.0857142857143
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": false,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 141,
+    "bbox": [
+      1009,
+      259,
+      18,
+      21
+    ],
+    "foreground_area": 208,
+    "bbox_area": 378,
+    "aspect_ratio": 0.8571428571428571,
+    "density": 0.5502645502645502,
+    "centroid": [
+      1017.5048076923077,
+      267.9855769230769
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 142,
+    "bbox": [
+      874,
+      260,
+      12,
+      20
+    ],
+    "foreground_area": 136,
+    "bbox_area": 240,
+    "aspect_ratio": 0.6,
+    "density": 0.5666666666666667,
+    "centroid": [
+      878.0808823529412,
+      270.06617647058823
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 143,
+    "bbox": [
+      886,
+      260,
+      7,
+      19
+    ],
+    "foreground_area": 73,
+    "bbox_area": 133,
+    "aspect_ratio": 0.3684210526315789,
+    "density": 0.5488721804511278,
+    "centroid": [
+      889.0958904109589,
+      268.24657534246575
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 144,
+    "bbox": [
+      894,
+      260,
+      18,
+      20
+    ],
+    "foreground_area": 199,
+    "bbox_area": 360,
+    "aspect_ratio": 0.9,
+    "density": 0.5527777777777778,
+    "centroid": [
+      902.3869346733668,
+      268.78391959798995
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 145,
+    "bbox": [
+      159,
+      262,
+      10,
+      18
+    ],
+    "foreground_area": 102,
+    "bbox_area": 180,
+    "aspect_ratio": 0.5555555555555556,
+    "density": 0.5666666666666667,
+    "centroid": [
+      163.38235294117646,
+      269.2352941176471
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 146,
+    "bbox": [
+      172,
+      263,
+      7,
+      17
+    ],
+    "foreground_area": 81,
+    "bbox_area": 119,
+    "aspect_ratio": 0.4117647058823529,
+    "density": 0.680672268907563,
+    "centroid": [
+      175.65432098765433,
+      270.71604938271605
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 147,
+    "bbox": [
+      182,
+      262,
+      26,
+      18
+    ],
+    "foreground_area": 229,
+    "bbox_area": 468,
+    "aspect_ratio": 1.4444444444444444,
+    "density": 0.4893162393162393,
+    "centroid": [
+      193.6986899563319,
+      271.22707423580783
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 148,
+    "bbox": [
+      784,
+      263,
+      17,
+      22
+    ],
+    "foreground_area": 192,
+    "bbox_area": 374,
+    "aspect_ratio": 0.7727272727272727,
+    "density": 0.5133689839572193,
+    "centroid": [
+      791.1875,
+      272.9010416666667
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 149,
+    "bbox": [
+      345,
+      265,
+      12,
+      21
+    ],
+    "foreground_area": 141,
+    "bbox_area": 252,
+    "aspect_ratio": 0.5714285714285714,
+    "density": 0.5595238095238095,
+    "centroid": [
+      349.1276595744681,
+      275.73758865248226
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 150,
+    "bbox": [
+      359,
+      265,
+      24,
+      21
+    ],
+    "foreground_area": 226,
+    "bbox_area": 504,
+    "aspect_ratio": 1.1428571428571428,
+    "density": 0.44841269841269843,
+    "centroid": [
+      372.45575221238937,
+      275.30973451327435
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 151,
+    "bbox": [
+      557,
+      264,
+      8,
+      20
+    ],
+    "foreground_area": 110,
+    "bbox_area": 160,
+    "aspect_ratio": 0.4,
+    "density": 0.6875,
+    "centroid": [
+      559.8636363636364,
+      273.25454545454545
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 152,
+    "bbox": [
+      565,
+      265,
+      11,
+      19
+    ],
+    "foreground_area": 111,
+    "bbox_area": 209,
+    "aspect_ratio": 0.5789473684210527,
+    "density": 0.5311004784688995,
+    "centroid": [
+      571.2702702702703,
+      274.4864864864865
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 153,
+    "bbox": [
+      579,
+      264,
+      17,
+      20
+    ],
+    "foreground_area": 191,
+    "bbox_area": 340,
+    "aspect_ratio": 0.85,
+    "density": 0.5617647058823529,
+    "centroid": [
+      586.1204188481676,
+      272.7696335078534
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 154,
+    "bbox": [
+      762,
+      264,
+      8,
+      20
+    ],
+    "foreground_area": 115,
+    "bbox_area": 160,
+    "aspect_ratio": 0.4,
+    "density": 0.71875,
+    "centroid": [
+      765.0434782608696,
+      273.0521739130435
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 155,
+    "bbox": [
+      770,
+      265,
+      12,
+      19
+    ],
+    "foreground_area": 115,
+    "bbox_area": 228,
+    "aspect_ratio": 0.631578947368421,
+    "density": 0.5043859649122807,
+    "centroid": [
+      776.4260869565218,
+      274.3652173913043
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 156,
+    "bbox": [
+      357,
+      266,
+      7,
+      12
+    ],
+    "foreground_area": 54,
+    "bbox_area": 84,
+    "aspect_ratio": 0.5833333333333334,
+    "density": 0.6428571428571429,
+    "centroid": [
+      360.05555555555554,
+      271.3888888888889
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 157,
+    "bbox": [
+      671,
+      267,
+      18,
+      21
+    ],
+    "foreground_area": 216,
+    "bbox_area": 378,
+    "aspect_ratio": 0.8571428571428571,
+    "density": 0.5714285714285714,
+    "centroid": [
+      679.3148148148148,
+      276.23148148148147
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 158,
+    "bbox": [
+      446,
+      268,
+      12,
+      18
+    ],
+    "foreground_area": 118,
+    "bbox_area": 216,
+    "aspect_ratio": 0.6666666666666666,
+    "density": 0.5462962962962963,
+    "centroid": [
+      450.00847457627117,
+      277.2457627118644
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 159,
+    "bbox": [
+      458,
+      268,
+      6,
+      17
+    ],
+    "foreground_area": 65,
+    "bbox_area": 102,
+    "aspect_ratio": 0.35294117647058826,
+    "density": 0.6372549019607843,
+    "centroid": [
+      461.10769230769233,
+      275.44615384615383
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 160,
+    "bbox": [
+      466,
+      268,
+      18,
+      18
+    ],
+    "foreground_area": 196,
+    "bbox_area": 324,
+    "aspect_ratio": 1.0,
+    "density": 0.6049382716049383,
+    "centroid": [
+      474.38775510204084,
+      276.234693877551
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 161,
+    "bbox": [
+      1198,
+      268,
+      5,
+      8
+    ],
+    "foreground_area": 32,
+    "bbox_area": 40,
+    "aspect_ratio": 0.625,
+    "density": 0.8,
+    "centroid": [
+      1199.9375,
+      271.375
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 162,
+    "bbox": [
+      696,
+      279,
+      3,
+      3
+    ],
+    "foreground_area": 6,
+    "bbox_area": 9,
+    "aspect_ratio": 1.0,
+    "density": 0.6666666666666666,
+    "centroid": [
+      697.1666666666666,
+      280.1666666666667
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 163,
+    "bbox": [
+      699,
+      280,
+      10,
+      22
+    ],
+    "foreground_area": 104,
+    "bbox_area": 220,
+    "aspect_ratio": 0.45454545454545453,
+    "density": 0.4727272727272727,
+    "centroid": [
+      704.2019230769231,
+      290.5673076923077
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 164,
+    "bbox": [
+      710,
+      280,
+      3,
+      2
+    ],
+    "foreground_area": 4,
+    "bbox_area": 6,
+    "aspect_ratio": 1.5,
+    "density": 0.6666666666666666,
+    "centroid": [
+      711.0,
+      280.5
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 165,
+    "bbox": [
+      1170,
+      296,
+      11,
+      18
+    ],
+    "foreground_area": 99,
+    "bbox_area": 198,
+    "aspect_ratio": 0.6111111111111112,
+    "density": 0.5,
+    "centroid": [
+      1174.909090909091,
+      302.45454545454544
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 166,
+    "bbox": [
+      1184,
+      296,
+      6,
+      18
+    ],
+    "foreground_area": 74,
+    "bbox_area": 108,
+    "aspect_ratio": 0.3333333333333333,
+    "density": 0.6851851851851852,
+    "centroid": [
+      1187.2297297297298,
+      303.9189189189189
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 167,
+    "bbox": [
+      1193,
+      296,
+      25,
+      18
+    ],
+    "foreground_area": 256,
+    "bbox_area": 450,
+    "aspect_ratio": 1.3888888888888888,
+    "density": 0.5688888888888889,
+    "centroid": [
+      1205.859375,
+      304.62109375
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 168,
+    "bbox": [
+      346,
+      317,
+      30,
+      21
+    ],
+    "foreground_area": 338,
+    "bbox_area": 630,
+    "aspect_ratio": 1.4285714285714286,
+    "density": 0.5365079365079365,
+    "centroid": [
+      360.8698224852071,
+      327.3491124260355
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 169,
+    "bbox": [
+      878,
+      316,
+      11,
+      15
+    ],
+    "foreground_area": 87,
+    "bbox_area": 165,
+    "aspect_ratio": 0.7333333333333333,
+    "density": 0.5272727272727272,
+    "centroid": [
+      883.0574712643678,
+      321.5057471264368
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 170,
+    "bbox": [
+      894,
+      316,
+      9,
+      15
+    ],
+    "foreground_area": 80,
+    "bbox_area": 135,
+    "aspect_ratio": 0.6,
+    "density": 0.5925925925925926,
+    "centroid": [
+      899.4,
+      321.9125
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 171,
+    "bbox": [
+      990,
+      316,
+      17,
+      15
+    ],
+    "foreground_area": 122,
+    "bbox_area": 255,
+    "aspect_ratio": 1.1333333333333333,
+    "density": 0.47843137254901963,
+    "centroid": [
+      997.4508196721312,
+      324.90983606557376
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 172,
+    "bbox": [
+      1007,
+      316,
+      10,
+      15
+    ],
+    "foreground_area": 72,
+    "bbox_area": 150,
+    "aspect_ratio": 0.6666666666666666,
+    "density": 0.48,
+    "centroid": [
+      1012.8194444444445,
+      322.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 173,
+    "bbox": [
+      559,
+      321,
+      30,
+      15
+    ],
+    "foreground_area": 214,
+    "bbox_area": 450,
+    "aspect_ratio": 2.0,
+    "density": 0.47555555555555556,
+    "centroid": [
+      574.803738317757,
+      329.2943925233645
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 174,
+    "bbox": [
+      764,
+      321,
+      17,
+      16
+    ],
+    "foreground_area": 121,
+    "bbox_area": 272,
+    "aspect_ratio": 1.0625,
+    "density": 0.44485294117647056,
+    "centroid": [
+      771.8099173553719,
+      329.22314049586777
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 175,
+    "bbox": [
+      782,
+      321,
+      9,
+      15
+    ],
+    "foreground_area": 66,
+    "bbox_area": 135,
+    "aspect_ratio": 0.6,
+    "density": 0.4888888888888889,
+    "centroid": [
+      787.7424242424242,
+      327.22727272727275
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 176,
+    "bbox": [
+      452,
+      327,
+      7,
+      13
+    ],
+    "foreground_area": 65,
+    "bbox_area": 91,
+    "aspect_ratio": 0.5384615384615384,
+    "density": 0.7142857142857143,
+    "centroid": [
+      455.0153846153846,
+      332.10769230769233
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 177,
+    "bbox": [
+      464,
+      327,
+      14,
+      13
+    ],
+    "foreground_area": 101,
+    "bbox_area": 182,
+    "aspect_ratio": 1.0769230769230769,
+    "density": 0.554945054945055,
+    "centroid": [
+      471.1089108910891,
+      334.08910891089107
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 178,
+    "bbox": [
+      1268,
+      342,
+      10,
+      15
+    ],
+    "foreground_area": 56,
+    "bbox_area": 150,
+    "aspect_ratio": 0.6666666666666666,
+    "density": 0.37333333333333335,
+    "centroid": [
+      1272.017857142857,
+      349.375
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 179,
+    "bbox": [
+      1262,
+      352,
+      4,
+      5
+    ],
+    "foreground_area": 15,
+    "bbox_area": 20,
+    "aspect_ratio": 0.8,
+    "density": 0.75,
+    "centroid": [
+      1263.8,
+      354.26666666666665
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": true,
+    "rejected_stage": "area"
+  },
+  {
+    "label": 180,
+    "bbox": [
+      1254,
+      356,
+      2,
+      1
+    ],
+    "foreground_area": 2,
+    "bbox_area": 2,
+    "aspect_ratio": 2.0,
+    "density": 1.0,
+    "centroid": [
+      1254.5,
+      356.0
+    ],
+    "passed_area_filter": false,
+    "passed_aspect_filter": true,
+    "passed_density_filter": false,
+    "rejected_stage": "area"
+  }
+]

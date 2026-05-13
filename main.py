@@ -9,13 +9,23 @@ from src.visualization import (
     save_colored_components,
     save_candidate_overlays,
     save_final_overlay,
-    save_candidate_crops
+    save_candidate_crops,
+    save_diagnostic_overlays,
+    save_large_components_overlay,
+    save_all_component_crops,
+    save_continuity_comparison_grid
 )
 from src.region_proposal import (
     compute_template_reference,
     extract_connected_components,
     filter_candidates
 )
+from src.proposal_diagnostics import (
+    compute_component_metadata,
+    save_component_ranking_table,
+    run_relaxed_filter_experiment
+)
+from src.continuity_recovery import run_continuity_experiments
 
 def main():
     print("=" * 50)
@@ -134,6 +144,105 @@ def main():
         print("STAGE 2 COMPLETED SUCCESSFULLY")
         print("Outputs saved to: outputs/diagram/")
         print("=" * 50)
+        
+        # --------------------------------------------------
+        # STAGE 2.5: PROPOSAL DIAGNOSTICS
+        # --------------------------------------------------
+        print("\n" + "=" * 50)
+        print("STAGE 2.5: PROPOSAL DIAGNOSTICS")
+        print("=" * 50)
+        
+        # 1. Compute full metadata and rejection history for all components
+        components_metadata = compute_component_metadata(all_comps, template_ref_pixels)
+        
+        # 2. Save metadata JSON
+        metadata_path = os.path.join(DIAGRAM_OUT_DIR, "all_components_metadata.json")
+        with open(metadata_path, "w") as f:
+            # Clean up metadata for JSON serialization
+            json_safe_metadata = [
+                {
+                    "label": int(c["label"]),
+                    "bbox": [int(x) for x in c["bbox"]],
+                    "foreground_area": int(c["foreground_area"]),
+                    "bbox_area": int(c["bbox_area"]),
+                    "aspect_ratio": float(c["aspect_ratio"]),
+                    "density": float(c["density"]),
+                    "centroid": [float(x) for x in c["centroid"]],
+                    "passed_area_filter": bool(c["passed_area_filter"]),
+                    "passed_aspect_filter": bool(c["passed_aspect_filter"]),
+                    "passed_density_filter": bool(c["passed_density_filter"]),
+                    "rejected_stage": c["rejected_stage"]
+                } for c in components_metadata
+            ]
+            json.dump(json_safe_metadata, f, indent=2)
+            
+        # 3. Save CSV ranking table
+        csv_path = os.path.join(DIAGRAM_OUT_DIR, "component_statistics.csv")
+        save_component_ranking_table(components_metadata, csv_path)
+        
+        # 4. Save ALL component crops
+        save_all_component_crops(DIAGRAM_OUT_DIR, diagram_original, all_comps)
+        
+        # 5. Diagnostic Overlays
+        save_diagnostic_overlays(DIAGRAM_OUT_DIR, diagram_original, components_metadata)
+        save_large_components_overlay(DIAGRAM_OUT_DIR, diagram_original, components_metadata, template_ref_pixels)
+        
+        # 6. Relaxed Filter Experiment
+        relaxed_candidates = run_relaxed_filter_experiment(all_comps, template_ref_pixels)
+        save_candidate_overlays(DIAGRAM_OUT_DIR, "relaxed_filter_candidates.png", diagram_original, relaxed_candidates, (255, 0, 255))
+        
+        # 7. Print Diagnostics
+        rejected_area = sum(1 for c in components_metadata if c["rejected_stage"] == "area")
+        rejected_aspect = sum(1 for c in components_metadata if c["rejected_stage"] == "aspect")
+        rejected_density = sum(1 for c in components_metadata if c["rejected_stage"] == "density")
+        
+        areas = [c["foreground_area"] for c in components_metadata]
+        densities = [c["density"] for c in components_metadata]
+        
+        largest_area = max(areas) if areas else 0
+        median_area = sorted(areas)[len(areas)//2] if areas else 0
+        mean_density = sum(densities) / len(densities) if densities else 0
+        
+        print("\nComponent Count Analysis:")
+        print(f"  - Total components: {len(all_comps)}")
+        print(f"  - Rejected by area: {rejected_area}")
+        print(f"  - Rejected by aspect: {rejected_aspect}")
+        print(f"  - Rejected by density: {rejected_density}")
+        print(f"  - Surviving (original filters): {len(final_candidates)}")
+        print(f"  - Surviving (RELAXED filters): {len(relaxed_candidates)}")
+        
+        print("\nStructural Analysis:")
+        print(f"  - Largest component area: {largest_area}")
+        print(f"  - Median component area: {median_area}")
+        print(f"  - Mean component density: {mean_density:.3f}")
+        
+        print("\nStage 2.5 diagnostics saved to outputs/diagram/")
+        
+        # --------------------------------------------------
+        # STAGE 2.75: SYMBOL CONTINUITY RECOVERY
+        # --------------------------------------------------
+        print("\n" + "=" * 50)
+        print("STAGE 2.75: SYMBOL CONTINUITY RECOVERY")
+        print("=" * 50)
+        
+        # Approximate MR reference regions can be defined here based on diagram knowledge.
+        # Format: (x, y, w, h)
+        MR_REFERENCE_REGIONS = [] 
+        
+        exp_summary, overlays_grid = run_continuity_experiments(
+            diagram_no_wire, 
+            diagram_original, 
+            template_ref_pixels,
+            mr_reference_regions=MR_REFERENCE_REGIONS
+        )
+        
+        save_continuity_comparison_grid(DIAGRAM_OUT_DIR, diagram_no_wire, overlays_grid)
+        
+        print("\nContinuity Experiments Summary:")
+        for exp in exp_summary:
+            print(f"  Kernel: {exp['kernel_type']} {exp['kernel_size']} -> Candidates: {exp['final_candidates']} | Largest CC Area: {exp['largest_component_area']} | Status: {exp['notes']}")
+            
+        print("\nStage 2.75 completed. Check outputs/diagram/continuity_experiments/ and continuity_comparison_grid.png")
 
     except Exception as e:
         print(f"\n[ERROR] Pipeline failed: {e}")
