@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "train_groups": [
+    "candidate_603_176",
+    "candidate_907_175",
+    "candidate_648_174",
+    "candidate_270_175",
+    "candidate_223_175",
+    "candidate_700_175",
+    "candidate_1080_175",
+    "candidate_332_176",
+    "candidate_960_174"
+  ],
+  "val_groups": [
+    "candidate_383_175",
+    "candidate_807_175"
+  ],
+  "test_groups": [
+    "candidate_121_219",
+    "template_base",
+    "candidate_439_176"
+  ],
+  "train_count": 104,
+  "val_count": 27,
+  "test_count": 43
+}

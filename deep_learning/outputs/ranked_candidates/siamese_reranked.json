@@ -1,0 +1,261 @@
+{
+  "candidates": [
+    {
+      "x": 700,
+      "y": 175,
+      "original_rank": 11,
+      "chamfer_similarity": 0.10851939270055716,
+      "pca_similarity": 0.04253446145612673,
+      "siamese_similarity": 0.9785779714584351,
+      "fused_score": 0.3530407335168129,
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "cycle instability"
+      ],
+      "siamese_rank": 1
+    },
+    {
+      "x": 121,
+      "y": 219,
+      "original_rank": 14,
+      "chamfer_similarity": 0.08016503655476127,
+      "pca_similarity": 0.02627357361701197,
+      "siamese_similarity": 0.9850900769233704,
+      "fused_score": 0.33816968293090666,
+      "failure_attributions": [],
+      "siamese_rank": 2
+    },
+    {
+      "x": 332,
+      "y": 176,
+      "original_rank": 13,
+      "chamfer_similarity": 0.08152409323429292,
+      "pca_similarity": 0.07101020778714823,
+      "siamese_similarity": 0.9146678447723389,
+      "fused_score": 0.32883874733392054,
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 3
+    },
+    {
+      "x": 855,
+      "y": 175,
+      "original_rank": 5,
+      "chamfer_similarity": 0.1522027847177233,
+      "pca_similarity": 0.07141991929679968,
+      "siamese_similarity": 0.6839244365692139,
+      "fused_score": 0.29152356391793954,
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 4
+    },
+    {
+      "x": 807,
+      "y": 175,
+      "original_rank": 8,
+      "chamfer_similarity": 0.13257569535204508,
+      "pca_similarity": 0.06638279398488775,
+      "siamese_similarity": 0.7054032683372498,
+      "fused_score": 0.28787574190581716,
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "siamese_rank": 5
+    },
+    {
+      "x": 1080,
+      "y": 175,
+      "original_rank": 16,
+      "chamfer_similarity": 0.08372320055086194,
+      "pca_similarity": 0.0259477681789297,
+      "siamese_similarity": 0.7341235876083374,
+      "fused_score": 0.26439945857512154,
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "siamese_rank": 6
+    },
+    {
+      "x": 648,
+      "y": 174,
+      "original_rank": 15,
+      "chamfer_similarity": 0.1035774342389737,
+      "pca_similarity": 0.019087862126114536,
+      "siamese_similarity": 0.6107626557350159,
+      "fused_score": 0.23461060765957156,
+      "failure_attributions": [
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "siamese_rank": 7
+    },
+    {
+      "x": 751,
+      "y": 175,
+      "original_rank": 6,
+      "chamfer_similarity": 0.13554293175473434,
+      "pca_similarity": 0.03780246906253928,
+      "siamese_similarity": 0.524621307849884,
+      "fused_score": 0.22783132891023047,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 8
+    },
+    {
+      "x": 960,
+      "y": 174,
+      "original_rank": 2,
+      "chamfer_similarity": 0.13391787173185993,
+      "pca_similarity": 0.07103644272120282,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.22365306693249226,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 9
+    },
+    {
+      "x": 383,
+      "y": 175,
+      "original_rank": 3,
+      "chamfer_similarity": 0.09558745332790711,
+      "pca_similarity": 0.08933871803006421,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.21097994747792886,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 10
+    },
+    {
+      "x": 1022,
+      "y": 175,
+      "original_rank": 4,
+      "chamfer_similarity": 0.1107850849613899,
+      "pca_similarity": 0.05938531817397214,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.2103305317489731,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "siamese_rank": 11
+    },
+    {
+      "x": 439,
+      "y": 176,
+      "original_rank": 1,
+      "chamfer_similarity": 0.10183235417336252,
+      "pca_similarity": 0.06693838791566405,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.20819007032978376,
+      "failure_attributions": [],
+      "siamese_rank": 12
+    },
+    {
+      "x": 270,
+      "y": 175,
+      "original_rank": 12,
+      "chamfer_similarity": 0.07412155680789612,
+      "pca_similarity": 0.0452044358541186,
+      "siamese_similarity": 0.5324593186378479,
+      "fused_score": 0.20439360511843727,
+      "failure_attributions": [
+        "cycle instability"
+      ],
+      "siamese_rank": 13
+    },
+    {
+      "x": 907,
+      "y": 175,
+      "original_rank": 9,
+      "chamfer_similarity": 0.07934658859311551,
+      "pca_similarity": 0.08483671623097776,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.20254605789750102,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 14
+    },
+    {
+      "x": 488,
+      "y": 175,
+      "original_rank": 7,
+      "chamfer_similarity": 0.05689144568426894,
+      "pca_similarity": 0.09510068639946262,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.19500723613064128,
+      "failure_attributions": [],
+      "siamese_rank": 15
+    },
+    {
+      "x": 223,
+      "y": 175,
+      "original_rank": 17,
+      "chamfer_similarity": 0.059212987371179054,
+      "pca_similarity": 0.0412075599749592,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.18257864828362497,
+      "failure_attributions": [
+        "missing endpoints",
+        "fused micro-components",
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "siamese_rank": 16
+    },
+    {
+      "x": 603,
+      "y": 176,
+      "original_rank": 10,
+      "chamfer_similarity": 0.05294444689872729,
+      "pca_similarity": 0.0471642820917737,
+      "siamese_similarity": 0.4854363799095154,
+      "fused_score": 0.1812469856002253,
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "siamese_rank": 17
+    }
+  ],
+  "retrieval_metrics": {
+    "recall@1": 0.0,
+    "recall@3": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.6666666666666666,
+    "precision@1": 0.0,
+    "precision@3": 0.0,
+    "precision@5": 0.0,
+    "precision@10": 0.2,
+    "mrr": 0.1111111111111111,
+    "map_lite": 0.18703703703703703
+  }
+}

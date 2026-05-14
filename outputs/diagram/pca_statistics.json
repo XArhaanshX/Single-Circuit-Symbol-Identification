@@ -1,0 +1,46 @@
+{
+  "num_augmented_templates": 375,
+  "num_pca_components": 10,
+  "detections": [
+    {
+      "rank": 1,
+      "x": 961,
+      "y": 173,
+      "chamfer_score": 1.0008273124694824,
+      "pca_similarity": 0.07103644272120282,
+      "fused_score": 0.7213109328163608
+    },
+    {
+      "rank": 2,
+      "x": 331,
+      "y": 174,
+      "chamfer_score": 1.2690757513046265,
+      "pca_similarity": 0.06504440694417493,
+      "fused_score": 0.3244298877736156
+    },
+    {
+      "rank": 3,
+      "x": 649,
+      "y": 174,
+      "chamfer_score": 1.415281891822815,
+      "pca_similarity": 0.019087862126114536,
+      "fused_score": 0.09530663247904819
+    },
+    {
+      "rank": 4,
+      "x": 438,
+      "y": 174,
+      "chamfer_score": 1.4282526969909668,
+      "pca_similarity": 0.06693838791566405,
+      "fused_score": 0.09055804342861494
+    },
+    {
+      "rank": 5,
+      "x": 753,
+      "y": 174,
+      "chamfer_score": 1.4761039018630981,
+      "pca_similarity": 0.03887019226033375,
+      "fused_score": 0.011661057678100125
+    }
+  ]
+}

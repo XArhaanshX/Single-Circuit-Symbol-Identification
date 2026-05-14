@@ -1,0 +1,642 @@
+{
+  "template_descriptor": {
+    "endpoint_count": 6,
+    "branchpoint_count": 12,
+    "connected_component_count": 2,
+    "estimated_cycle_count": 6,
+    "edge_length_mean": 8.136363636363637,
+    "edge_length_std": 9.752833875086836,
+    "edge_length_max": 29.0,
+    "graph_density": 1.022857142857143,
+    "largest_component_ratio": 0.92,
+    "node_degree_histogram": {
+      "0": 0,
+      "1": 6,
+      "2": 157,
+      "3": 10,
+      "4": 2
+    },
+    "total_nodes": 175
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "x": 439,
+      "y": 176,
+      "chamfer_similarity": 0.10183235417336252,
+      "pca_similarity": 0.06693838791566405,
+      "topology_similarity": 0.6142597541861895,
+      "topology_confidence": 0.5166666666666667,
+      "effective_topology_score": 0.31736753966286463,
+      "fused_score_topology": 0.1254391404323632,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "endpoint_count",
+      "failure_attributions": [],
+      "descriptor": {
+        "endpoint_count": 6,
+        "branchpoint_count": 5,
+        "connected_component_count": 2,
+        "estimated_cycle_count": 4,
+        "edge_length_mean": 3.8461538461538463,
+        "edge_length_std": 4.32961454752932,
+        "edge_length_max": 16.0,
+        "graph_density": 1.0416666666666667,
+        "largest_component_ratio": 0.6458333333333334,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 6,
+          "2": 37,
+          "3": 0,
+          "4": 5
+        },
+        "total_nodes": 48
+      }
+    },
+    {
+      "rank": 2,
+      "x": 960,
+      "y": 174,
+      "chamfer_similarity": 0.13391787173185993,
+      "pca_similarity": 0.07103644272120282,
+      "topology_similarity": 0.44502719992257805,
+      "topology_confidence": 0.3,
+      "effective_topology_score": 0.1335081599767734,
+      "fused_score_topology": 0.11813605771593268,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 7,
+        "branchpoint_count": 4,
+        "connected_component_count": 3,
+        "estimated_cycle_count": 2,
+        "edge_length_mean": 3.5,
+        "edge_length_std": 3.52845575287547,
+        "edge_length_max": 12.0,
+        "graph_density": 0.9722222222222222,
+        "largest_component_ratio": 0.5,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 7,
+          "2": 25,
+          "3": 3,
+          "4": 1
+        },
+        "total_nodes": 36
+      }
+    },
+    {
+      "rank": 3,
+      "x": 383,
+      "y": 175,
+      "chamfer_similarity": 0.09558745332790711,
+      "pca_similarity": 0.08933871803006421,
+      "topology_similarity": 0.5012928255310407,
+      "topology_confidence": 0.48484848484848486,
+      "effective_topology_score": 0.24305106692414097,
+      "fused_score_topology": 0.11614481154288145,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "connected_component_count",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 5,
+        "branchpoint_count": 4,
+        "connected_component_count": 2,
+        "estimated_cycle_count": 2,
+        "edge_length_mean": 3.6666666666666665,
+        "edge_length_std": 3.6817870057290873,
+        "edge_length_max": 12.0,
+        "graph_density": 1.0,
+        "largest_component_ratio": 0.6060606060606061,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 5,
+          "2": 24,
+          "3": 3,
+          "4": 1
+        },
+        "total_nodes": 33
+      }
+    },
+    {
+      "rank": 4,
+      "x": 1022,
+      "y": 175,
+      "chamfer_similarity": 0.1107850849613899,
+      "pca_similarity": 0.05938531817397214,
+      "topology_similarity": 0.3830918085270434,
+      "topology_confidence": 0.6,
+      "effective_topology_score": 0.22985508511622602,
+      "fused_score_topology": 0.11579564328776087,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "edge_length_mean",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 4,
+        "branchpoint_count": 0,
+        "connected_component_count": 3,
+        "estimated_cycle_count": 0,
+        "edge_length_mean": 8.5,
+        "edge_length_std": 6.5,
+        "edge_length_max": 15.0,
+        "graph_density": 0.85,
+        "largest_component_ratio": 0.8,
+        "node_degree_histogram": {
+          "0": 1,
+          "1": 4,
+          "2": 15,
+          "3": 0,
+          "4": 0
+        },
+        "total_nodes": 20
+      }
+    },
+    {
+      "rank": 5,
+      "x": 855,
+      "y": 175,
+      "chamfer_similarity": 0.1522027847177233,
+      "pca_similarity": 0.07141991929679968,
+      "topology_similarity": 0.3408597082303752,
+      "topology_confidence": 0.053164556962025315,
+      "effective_topology_score": 0.018121655374273113,
+      "fused_score_topology": 0.11189489896097488,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 17,
+        "branchpoint_count": 4,
+        "connected_component_count": 8,
+        "estimated_cycle_count": 2,
+        "edge_length_mean": 4.866666666666666,
+        "edge_length_std": 4.48503685108111,
+        "edge_length_max": 16.0,
+        "graph_density": 0.9240506329113924,
+        "largest_component_ratio": 0.26582278481012656,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 17,
+          "2": 58,
+          "3": 3,
+          "4": 1
+        },
+        "total_nodes": 79
+      }
+    },
+    {
+      "rank": 6,
+      "x": 751,
+      "y": 175,
+      "chamfer_similarity": 0.13554293175473434,
+      "pca_similarity": 0.03780246906253928,
+      "topology_similarity": 0.3616151459903646,
+      "topology_confidence": 0.3891891891891892,
+      "effective_topology_score": 0.14073670546652028,
+      "fused_score_topology": 0.11188688213845346,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "endpoint_count",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 6,
+        "branchpoint_count": 0,
+        "connected_component_count": 3,
+        "estimated_cycle_count": 0,
+        "edge_length_mean": 23.666666666666668,
+        "edge_length_std": 16.519348924485154,
+        "edge_length_max": 47.0,
+        "graph_density": 0.9594594594594594,
+        "largest_component_ratio": 0.6486486486486487,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 6,
+          "2": 68,
+          "3": 0,
+          "4": 0
+        },
+        "total_nodes": 74
+      }
+    },
+    {
+      "rank": 7,
+      "x": 488,
+      "y": 175,
+      "chamfer_similarity": 0.05689144568426894,
+      "pca_similarity": 0.09510068639946262,
+      "topology_similarity": 0.6084607550425442,
+      "topology_confidence": 0.5,
+      "effective_topology_score": 0.3042303775212721,
+      "fused_score_topology": 0.10354459563861783,
+      "dominant_mismatch": "edge_length_mean",
+      "strongest_alignment": "endpoint_count",
+      "failure_attributions": [],
+      "descriptor": {
+        "endpoint_count": 6,
+        "branchpoint_count": 6,
+        "connected_component_count": 2,
+        "estimated_cycle_count": 4,
+        "edge_length_mean": 3.0,
+        "edge_length_std": 3.625307868699863,
+        "edge_length_max": 14.0,
+        "graph_density": 1.05,
+        "largest_component_ratio": 0.625,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 6,
+          "2": 28,
+          "3": 2,
+          "4": 4
+        },
+        "total_nodes": 40
+      }
+    },
+    {
+      "rank": 8,
+      "x": 807,
+      "y": 175,
+      "chamfer_similarity": 0.13257569535204508,
+      "pca_similarity": 0.06638279398488775,
+      "topology_similarity": 0.3895144939059762,
+      "topology_confidence": 0.09696969696969698,
+      "effective_topology_score": 0.0377711024393674,
+      "fused_score_topology": 0.1018067810733541,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "edge_length_mean",
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 17,
+        "branchpoint_count": 4,
+        "connected_component_count": 8,
+        "estimated_cycle_count": 2,
+        "edge_length_mean": 8.4,
+        "edge_length_std": 15.02797391533536,
+        "edge_length_max": 63.0,
+        "graph_density": 0.9545454545454546,
+        "largest_component_ratio": 0.48484848484848486,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 17,
+          "2": 111,
+          "3": 3,
+          "4": 1
+        },
+        "total_nodes": 132
+      }
+    },
+    {
+      "rank": 9,
+      "x": 907,
+      "y": 175,
+      "chamfer_similarity": 0.07934658859311551,
+      "pca_similarity": 0.08483671623097776,
+      "topology_similarity": 0.46257901323460354,
+      "topology_confidence": 0.30666666666666664,
+      "effective_topology_score": 0.14185756405861175,
+      "fused_score_topology": 0.0900957668224055,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 7,
+        "branchpoint_count": 4,
+        "connected_component_count": 3,
+        "estimated_cycle_count": 2,
+        "edge_length_mean": 4.4,
+        "edge_length_std": 4.565084884205332,
+        "edge_length_max": 16.0,
+        "graph_density": 0.9777777777777777,
+        "largest_component_ratio": 0.5111111111111111,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 7,
+          "2": 34,
+          "3": 3,
+          "4": 1
+        },
+        "total_nodes": 45
+      }
+    },
+    {
+      "rank": 10,
+      "x": 603,
+      "y": 176,
+      "chamfer_similarity": 0.05294444689872729,
+      "pca_similarity": 0.0471642820917737,
+      "topology_similarity": 0.42757024473242705,
+      "topology_confidence": 0.5647058823529413,
+      "effective_topology_score": 0.24145143231948826,
+      "fused_score_topology": 0.07977545351010304,
+      "dominant_mismatch": "branchpoint_count",
+      "strongest_alignment": "connected_component_count",
+      "failure_attributions": [
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 4,
+        "branchpoint_count": 0,
+        "connected_component_count": 2,
+        "estimated_cycle_count": 0,
+        "edge_length_mean": 7.5,
+        "edge_length_std": 3.5,
+        "edge_length_max": 11.0,
+        "graph_density": 0.8823529411764706,
+        "largest_component_ratio": 0.7058823529411765,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 4,
+          "2": 13,
+          "3": 0,
+          "4": 0
+        },
+        "total_nodes": 17
+      }
+    },
+    {
+      "rank": 11,
+      "x": 700,
+      "y": 175,
+      "chamfer_similarity": 0.10851939270055716,
+      "pca_similarity": 0.04253446145612673,
+      "topology_similarity": 0.4564031416449912,
+      "topology_confidence": 0.05576923076923077,
+      "effective_topology_score": 0.025453252130201432,
+      "fused_score_topology": 0.0795632388038962,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 13,
+        "branchpoint_count": 8,
+        "connected_component_count": 5,
+        "estimated_cycle_count": 3,
+        "edge_length_mean": 5.368421052631579,
+        "edge_length_std": 5.5839104041578285,
+        "edge_length_max": 18.0,
+        "graph_density": 0.9807692307692307,
+        "largest_component_ratio": 0.27884615384615385,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 13,
+          "2": 83,
+          "3": 7,
+          "4": 1
+        },
+        "total_nodes": 104
+      }
+    },
+    {
+      "rank": 12,
+      "x": 270,
+      "y": 175,
+      "chamfer_similarity": 0.07412155680789612,
+      "pca_similarity": 0.0452044358541186,
+      "topology_similarity": 0.5365352306020237,
+      "topology_confidence": 0.2845360824742268,
+      "effective_topology_score": 0.1526636326249057,
+      "fused_score_topology": 0.07867358794200317,
+      "dominant_mismatch": "estimated_cycle_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 9,
+        "branchpoint_count": 20,
+        "connected_component_count": 3,
+        "estimated_cycle_count": 11,
+        "edge_length_mean": 5.45945945945946,
+        "edge_length_std": 11.407902890385445,
+        "edge_length_max": 62.0,
+        "graph_density": 1.041237113402062,
+        "largest_component_ratio": 0.4742268041237113,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 9,
+          "2": 165,
+          "3": 15,
+          "4": 5
+        },
+        "total_nodes": 194
+      }
+    },
+    {
+      "rank": 13,
+      "x": 332,
+      "y": 176,
+      "chamfer_similarity": 0.08152409323429292,
+      "pca_similarity": 0.07101020778714823,
+      "topology_similarity": 0.5858721499603365,
+      "topology_confidence": 0.13391304347826088,
+      "effective_topology_score": 0.07845592269034073,
+      "fused_score_topology": 0.07843539629091392,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "branchpoint_count",
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 13,
+        "branchpoint_count": 12,
+        "connected_component_count": 5,
+        "estimated_cycle_count": 6,
+        "edge_length_mean": 4.461538461538462,
+        "edge_length_std": 8.513476959552332,
+        "edge_length_max": 40.0,
+        "graph_density": 1.008695652173913,
+        "largest_component_ratio": 0.6695652173913044,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 13,
+          "2": 90,
+          "3": 9,
+          "4": 3
+        },
+        "total_nodes": 115
+      }
+    },
+    {
+      "rank": 14,
+      "x": 121,
+      "y": 219,
+      "chamfer_similarity": 0.08016503655476127,
+      "pca_similarity": 0.02627357361701197,
+      "topology_similarity": 0.6168004352082539,
+      "topology_confidence": 0.2,
+      "effective_topology_score": 0.12336008704165079,
+      "fused_score_topology": 0.07317142839335737,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "branchpoint_count",
+      "failure_attributions": [],
+      "descriptor": {
+        "endpoint_count": 11,
+        "branchpoint_count": 12,
+        "connected_component_count": 5,
+        "estimated_cycle_count": 6,
+        "edge_length_mean": 5.04,
+        "edge_length_std": 8.141154709253472,
+        "edge_length_max": 38.0,
+        "graph_density": 1.008,
+        "largest_component_ratio": 0.84,
+        "node_degree_histogram": {
+          "0": 1,
+          "1": 11,
+          "2": 101,
+          "3": 9,
+          "4": 3
+        },
+        "total_nodes": 125
+      }
+    },
+    {
+      "rank": 15,
+      "x": 648,
+      "y": 174,
+      "chamfer_similarity": 0.1035774342389737,
+      "pca_similarity": 0.019087862126114536,
+      "topology_similarity": 0.37411410604444556,
+      "topology_confidence": 0.07868852459016394,
+      "effective_topology_score": 0.029438487033005556,
+      "fused_score_topology": 0.07133419912986368,
+      "dominant_mismatch": "estimated_cycle_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 10,
+        "branchpoint_count": 4,
+        "connected_component_count": 5,
+        "estimated_cycle_count": 1,
+        "edge_length_mean": 5.181818181818182,
+        "edge_length_std": 4.38630475702357,
+        "edge_length_max": 15.0,
+        "graph_density": 0.9344262295081968,
+        "largest_component_ratio": 0.39344262295081966,
+        "node_degree_histogram": {
+          "0": 1,
+          "1": 10,
+          "2": 46,
+          "3": 4,
+          "4": 0
+        },
+        "total_nodes": 61
+      }
+    },
+    {
+      "rank": 16,
+      "x": 1080,
+      "y": 175,
+      "chamfer_similarity": 0.08372320055086194,
+      "pca_similarity": 0.0259477681789297,
+      "topology_similarity": 0.44346180460133233,
+      "topology_confidence": 0.07722772277227724,
+      "effective_topology_score": 0.03424754530584547,
+      "fused_score_topology": 0.06185799417112641,
+      "dominant_mismatch": "connected_component_count",
+      "strongest_alignment": "graph_density",
+      "failure_attributions": [
+        "excessive endpoints",
+        "fragmentation",
+        "abnormal branchpoint ratio",
+        "cycle instability"
+      ],
+      "descriptor": {
+        "endpoint_count": 12,
+        "branchpoint_count": 22,
+        "connected_component_count": 5,
+        "estimated_cycle_count": 12,
+        "edge_length_mean": 5.097560975609756,
+        "edge_length_std": 11.630080590389944,
+        "edge_length_max": 69.0,
+        "graph_density": 1.0346534653465347,
+        "largest_component_ratio": 0.38613861386138615,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 12,
+          "2": 168,
+          "3": 18,
+          "4": 4
+        },
+        "total_nodes": 202
+      }
+    },
+    {
+      "rank": 17,
+      "x": 223,
+      "y": 175,
+      "chamfer_similarity": 0.059212987371179054,
+      "pca_similarity": 0.0412075599749592,
+      "topology_similarity": 0.1353352832366127,
+      "topology_confidence": 0.1,
+      "effective_topology_score": 0.013533528323661271,
+      "fused_score_topology": 0.047859711664996425,
+      "dominant_mismatch": "endpoint_count",
+      "strongest_alignment": "endpoint_count",
+      "failure_attributions": [
+        "missing endpoints",
+        "fused micro-components",
+        "abnormal branchpoint ratio",
+        "cycle instability",
+        "edge-length inconsistency"
+      ],
+      "descriptor": {
+        "endpoint_count": 0,
+        "branchpoint_count": 0,
+        "connected_component_count": 0,
+        "estimated_cycle_count": 0,
+        "edge_length_mean": 0.0,
+        "edge_length_std": 0.0,
+        "edge_length_max": 0.0,
+        "graph_density": 0.0,
+        "largest_component_ratio": 0.0,
+        "node_degree_histogram": {
+          "0": 0,
+          "1": 0,
+          "2": 0,
+          "3": 0,
+          "4": 0
+        },
+        "total_nodes": 0
+      }
+    }
+  ]
+}

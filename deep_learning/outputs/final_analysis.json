@@ -1,0 +1,77 @@
+{
+  "total_candidates": 17,
+  "template_shape": [
+    72,
+    83
+  ],
+  "retrieval_metrics": {
+    "recall@1": 0.0,
+    "recall@3": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.6666666666666666,
+    "precision@1": 0.0,
+    "precision@3": 0.0,
+    "precision@5": 0.0,
+    "precision@10": 0.2,
+    "mrr": 0.1111111111111111,
+    "map_lite": 0.18703703703703703
+  },
+  "top5_detections": [
+    {
+      "rank": 1,
+      "x": 700,
+      "y": 175,
+      "siamese_similarity": 0.9785779714584351,
+      "fused_score": 0.3530407335168129,
+      "original_rank": 11
+    },
+    {
+      "rank": 2,
+      "x": 121,
+      "y": 219,
+      "siamese_similarity": 0.9850900769233704,
+      "fused_score": 0.33816968293090666,
+      "original_rank": 14
+    },
+    {
+      "rank": 3,
+      "x": 332,
+      "y": 176,
+      "siamese_similarity": 0.9146678447723389,
+      "fused_score": 0.32883874733392054,
+      "original_rank": 13
+    },
+    {
+      "rank": 4,
+      "x": 855,
+      "y": 175,
+      "siamese_similarity": 0.6839244365692139,
+      "fused_score": 0.29152356391793954,
+      "original_rank": 5
+    },
+    {
+      "rank": 5,
+      "x": 807,
+      "y": 175,
+      "siamese_similarity": 0.7054032683372498,
+      "fused_score": 0.28787574190581716,
+      "original_rank": 8
+    }
+  ],
+  "confidence_statistics": {
+    "mean_fused": 0.24383623613352517,
+    "max_fused": 0.3530407335168129,
+    "min_fused": 0.1812469856002253,
+    "mean_siamese": 0.6207718533628127,
+    "max_siamese": 0.9850900769233704,
+    "min_siamese": 0.4854363799095154
+  },
+  "visualization_paths": [
+    "final_siamese_detections_overlay.png",
+    "top5_overlay.png",
+    "top10_overlay.png",
+    "top17_overlay.png",
+    "detection_crop_grid.png",
+    "template_retrieval_ranking.png"
+  ]
+}
